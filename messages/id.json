@@ -1,0 +1,48 @@
+{
+  "home": {
+    "nav": {
+      "home": "Beranda",
+      "projects": "Proyek",
+      "about-me": "Tentang",
+      "contacts": "Kontak"
+    },
+    "hero": {
+      "taglines": {
+        "1": "Akmal adalah seorang",
+        "2": "Berfokus pada"
+      },
+      "description": {
+        "1": "Dia membangun sistem backend yang andal di mana",
+        "2": "performa bertemu dengan skalabilitas."
+      },
+      "contact-me": "Kontak Saya",
+      "opportunities": "Terbukan untuk kesempatan baru"
+    },
+    "quotes": {
+      "quote": "Maka sesungguhnya, bersama kesulitan ada kemudahan, sesungguhnya bersama kesulitan ada kemudahan",
+      "author": "QS. Al-Inshirah 94: 5-6"
+    },
+    "projects": {
+      "title": "proyek",
+      "view-all": "Lihat semua"
+    },
+    "skills": {
+      "title": "skill"
+    },
+    "about-me": {
+      "title": "tentang",
+      "description": {
+        "1": "Halo, saya Akmal!",
+        "2": "Saya seorang software engineer yang fokus membangun aplikasi backend yang andal dan mudah di-scale. Saya suka merancang sistem yang rapi, efisien, dan bisa diandalkan dalam jangka panjang.",
+        "3": "Selama perjalanan saya, saya telah mengerjakan berbagai proyek mulai dari membuat layanan backend, meningkatkan performa aplikasi, hingga mengintegrasikan teknologi modern untuk mendukung kebutuhan bisnis. Saya juga selalu bersemangat untuk belajar hal-hal baru, baik itu tools, framework, maupun praktik terbaik di dunia pengembangan software."
+      },
+      "view-all": "Lebih detail"
+    },
+    "contacts": {
+      "title": "kontak",
+      "description": "Jika kamu punya permintaan atau bertanyaan, jangan ragu untuk kontak saya.",
+      "tagline": "Hubungi saya disini"
+    }
+  }
+}
+

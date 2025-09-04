@@ -1,0 +1,47 @@
+{
+  "home": {
+    "nav": {
+      "home": "home",
+      "projects": "projects",
+      "about-me": "about-me",
+      "contacts": "contacts"
+    },
+    "hero": {
+      "taglines": {
+        "1": "Akmal is a",
+        "2": "Focusing on"
+      },
+      "description": {
+        "1": "He builds reliable backend systems where",
+        "2": "performance meets scalability."
+      },
+      "contact-me": "Contact Me",
+      "opportunities": "Open for new opportunities"
+    },
+    "quotes": {
+      "quote": "For indeed, with hardship (comes) ease, indeed with hardship (comes) ease",
+      "author": "QS. Al-Inshirah 94: 5-6"
+    },
+    "projects": {
+      "title": "projects",
+      "view-all": "View all"
+    },
+    "skills": {
+      "title": "skills"
+    },
+    "about-me": {
+      "title": "about-me",
+      "description": {
+        "1": "Hello, I’m Akmal!",
+        "2": "I’m a software engineer who focuses on building reliable and scalable backend applications. I enjoy designing systems that are clean, efficient, and dependable in the long run.",
+        "3": "Throughout my journey, I’ve worked on various projects—from developing backend services and improving application performance to integrating modern technologies that support business needs. I’m always excited to learn new tools, frameworks, and best practices in the world of software development."
+      },
+      "view-all": "View all"
+    },
+    "contacts": {
+      "title": "contacts",
+      "description": "If you have other requests or questions, don't hesitate to contact me.",
+      "tagline": "Message me here"
+    }
+  }
+}
