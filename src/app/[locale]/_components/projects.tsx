@@ -1,8 +1,6 @@
 "use client"
 
 import {useTranslations} from "next-intl";
-import {useCurrentLang} from "@/lib/useLang";
-import Link from "next/link";
 import ProjectCard, {ProjectCardProps} from "@/app/[locale]/_components/project-card";
 
 const project_list: ProjectCardProps[] = [
@@ -43,26 +41,26 @@ const project_list: ProjectCardProps[] = [
 
 const Projects = () => {
   const t = useTranslations("home.projects")
-  const currentLang = useCurrentLang()
 
   return (
-    <div id={"projects"} className={"flex flex-col gap-12 px-6 lg:p-0"}>
-      <div className={"flex items-center"}>
-        <div className={"flex-1 flex items-center gap-4"}>
-          <h1 className={"text-3xl md:text-4xl font-medium tracking-wide"}>
-            <span className={"text-primary"}>#</span>
-            {t("title")}
-          </h1>
-          {/* line shape */}
-          <div className={"w-1/5 md:w-2/5 h-0.5 bg-primary"}></div>
+      <div id={"projects"} className={"flex flex-col gap-12 px-6 lg:p-0"}>
+        <div className={"flex items-center"}>
+          <div className={"flex-1 flex items-center gap-4"}>
+            <h1 className={"text-3xl md:text-4xl font-medium tracking-wide"}>
+              <span className={"text-primary"}>#</span>
+              {t("title")}
+            </h1>
+            {/* line shape */}
+            <div className={"w-1/5 md:w-2/5 h-0.5 bg-primary"}></div>
+          </div>
+        </div>
+        <div className={"grid md:grid-cols-3 gap-4"}>
+          {project_list.map(({image, title, description, techstack, badges}: ProjectCardProps, i: number) => (
+              <ProjectCard image={image} title={title} description={description} techstack={techstack} badges={badges}
+                           key={i}/>
+          ))}
         </div>
       </div>
-      <div className={"grid md:grid-cols-3 gap-4"}>
-        {project_list.map(({image, title, description, techstack, badges}: ProjectCardProps, i: number) => (
-          <ProjectCard image={image} title={title} description={description} techstack={techstack} badges={badges} key={i} />
-        ))}
-      </div>
-    </div>
   )
 }
 
