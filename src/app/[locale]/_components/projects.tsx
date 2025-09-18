@@ -46,7 +46,7 @@ const Projects = () => {
   const currentLang = useCurrentLang()
 
   return (
-    <div className={"flex flex-col gap-12 px-6 lg:p-0"}>
+    <div id={"projects"} className={"flex flex-col gap-12 px-6 lg:p-0"}>
       <div className={"flex items-center"}>
         <div className={"flex-1 flex items-center gap-4"}>
           <h1 className={"text-3xl md:text-4xl font-medium tracking-wide"}>
@@ -55,11 +55,6 @@ const Projects = () => {
           </h1>
           {/* line shape */}
           <div className={"w-1/5 md:w-2/5 h-0.5 bg-primary"}></div>
-        </div>
-        <div>
-            <Link className={"font-medium md:text-lg"} href={`/${currentLang}/projects`}>
-            {t("view-all")} {"~~>"}
-          </Link>
         </div>
       </div>
       <div className={"grid md:grid-cols-3 gap-4"}>
