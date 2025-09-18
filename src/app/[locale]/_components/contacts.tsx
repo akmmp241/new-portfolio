@@ -17,7 +17,7 @@ const Contacts = () => {
         {/* line shape */}
         <div className={"w-1/5 md:w-2/5 h-0.5 bg-primary"}></div>
       </div>
-      <div className={"flex gap-12"}>
+      <div className={"flex gap-12 flex-col md:flex-row"}>
         <div className={"lg:max-w-4/5"}>
           <p className={"text-muted-foreground"}>{t("description")}</p>
         </div>
@@ -32,7 +32,7 @@ const Contacts = () => {
                 </Link>
               </li>
               <li>
-                <Link className={"flex items-center gap-2 text-muted-foreground hover:text-white hover:fill-white"} href={"mailto:akmalmp241@gmail.com"}>
+                <Link className={"flex items-center gap-2 text-muted-foreground hover:text-white hover:fill-white"} href={"https://github.com/akmmp241"}>
                   <Image className={"inline"}  src={"/github.svg"} alt={"email"} height={32} width={32} />
                   akmmp241
                 </Link>
