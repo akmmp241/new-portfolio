@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+// @ts-ignore
 import { motion, MotionProps, type AnimationProps } from "motion/react";
 import React from "react";
 

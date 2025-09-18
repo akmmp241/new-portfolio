@@ -37,7 +37,7 @@ export function IconCloud({icons, images}: IconCloudProps) {
     startTime: number;
     duration: number;
   } | null>(null);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number>(0);
   const rotationRef = useRef(rotation);
   const iconCanvasesRef = useRef<HTMLCanvasElement[]>([]);
   const imagesLoadedRef = useRef<boolean[]>([]);
@@ -49,7 +49,7 @@ export function IconCloud({icons, images}: IconCloudProps) {
     const items = icons || images || [];
     imagesLoadedRef.current = new Array(items.length).fill(false);
 
-    const newIconCanvases = items.map((item, index) => {
+    iconCanvasesRef.current = items.map((item, index) => {
       const offscreen = document.createElement("canvas");
       offscreen.width = 40;
       offscreen.height = 40;
@@ -90,8 +90,6 @@ export function IconCloud({icons, images}: IconCloudProps) {
       }
       return offscreen;
     });
-
-    iconCanvasesRef.current = newIconCanvases;
   }, [icons, images]);
 
   // Generate initial icon positions on a sphere
