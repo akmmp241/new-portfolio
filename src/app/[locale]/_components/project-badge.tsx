@@ -12,8 +12,6 @@ type BadgeProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
 const ProjectBadge: React.FC<BadgeProps> = ({
                                               variant,
                                               href,
-                                              className,
-                                              children,
                                               ...props
                                             }) => {
 
