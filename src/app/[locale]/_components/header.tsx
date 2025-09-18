@@ -67,7 +67,7 @@ export const Header = () => {
 
   useEffect(() => {
     const navbar = document.getElementById("navbar");
-    if (navbar) {
+    if (navbar && !document.getElementById("main")?.classList.contains("hidden")) {
       setNavHeight(navbar.offsetHeight);
     }
   }, []);
@@ -75,7 +75,7 @@ export const Header = () => {
   return (
       <header className={"relative text-white px-6 lg:p-0"}>
         {/* Fixed Socials list (Desktop Only) */}
-        <div className={"hidden lg:flex fixed flex-col items-center pl-2"}>
+        <div className={"hidden lg:flex fixed top-0 z-[99] flex-col items-center pl-2"}>
           {/* Side Line */}
           <div className={"h-80 border-l w-[1px]"}>
           </div>
