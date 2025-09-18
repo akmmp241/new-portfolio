@@ -31,7 +31,7 @@ const Hero = () => {
         <p className={"text-muted-foreground"}>
           {t("description.1")} <br className={"lg:hidden"}/> {t("description.2")}
         </p>
-        <Link href={"/contacts"}>
+        <Link href={"https://instgram.com/akm.mp_"}>
           <InteractiveHoverButton className={"w-fit hidden md:block"}>{t("contact-me")}</InteractiveHoverButton>
           <ShinyButton className={"w-fit md:hidden text-white"}>{t("contact-me")} {"=>"}</ShinyButton>
         </Link>

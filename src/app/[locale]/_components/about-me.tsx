@@ -32,7 +32,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div>
-        <Link href={"/contacts"}>
+        <Link href={"https://www.linkedin.com/in/akmalmuhammadp/"}>
           <InteractiveHoverButton className={"w-fit hidden md:block"}>{t("view-all")}</InteractiveHoverButton>
           <ShinyButton className={"w-fit md:hidden text-white"}>{t("view-all")} {"=>"}</ShinyButton>
         </Link>
