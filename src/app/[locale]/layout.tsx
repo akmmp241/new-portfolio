@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       {
         url: '/akm-2.png',
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: 'AkmalMP',
       }
     ]
