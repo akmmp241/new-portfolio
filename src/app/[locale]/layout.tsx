@@ -16,6 +16,21 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Akmal Muhammad Pridianto",
   description: "Akmal's Portfolio",
+  openGraph: {
+    type: 'website',
+    url: 'https://akmalmp.my.id',
+    title: 'AkmalMP | Software Engineer',
+    description: 'He builds reliable backend systems where performance meets scalability.',
+    siteName: 'AkmalMP - Portfolio',
+    images: [
+      {
+        url: '/akm-2.png',
+        width: 1200,
+        height: 630,
+        alt: 'AkmalMP',
+      }
+    ]
+  }
 };
 
 export default async function RootLayout({
