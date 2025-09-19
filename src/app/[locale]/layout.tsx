@@ -28,6 +28,18 @@ export const metadata: Metadata = {
         width: 1200,
         height: 1200,
         alt: 'AkmalMP',
+      },
+      {
+        url: '/akm-2.png',
+        width: 1200,
+        height: 630,
+        alt: 'AkmalMP',
+      },
+      {
+        url: '/akm-2.png',
+        width: 630,
+        height: 630,
+        alt: 'AkmalMP',
       }
     ]
   }
